@@ -17,6 +17,17 @@ namespace MVCDataAccess.Controllers
             this.repo = repo;
         }
 
+
+        /*
+         * 
+         * 
+         * This comment is only added to show weather changing branches work with visual studio or not?
+         * 
+         * 
+         * 
+         * 
+         * 
+         */
         [HttpGet]
         public async Task<IActionResult> GetStudents(string sortOrder,string searchString,bool reverse = false)
         {
