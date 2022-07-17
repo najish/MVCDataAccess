@@ -1,0 +1,28 @@
+﻿@model StudentViewModel
+
+@{
+    ViewData["Title"] = "Delete Student";
+}
+
+
+<form method="post" asp-action="Delete">
+    <div>
+        <label asp-for="Id"></label>
+        <input asp-for="Id" readonly/>
+    </div>
+
+    <div>
+        <label asp-for="Name"></label>
+        <input asp-for="Name" />
+    </div>
+
+    <div>
+        <label asp-for="Address"></label>
+        <input asp-for="Address" />
+    </div>
+
+    <div>
+        <input type="submit" value="Delete Student" class="btn btn-primary" />
+        <a asp-action="GetStudents" asp-controller="Student" class="btn btn-dark">Cancel</a>
+    </div>
+</form>

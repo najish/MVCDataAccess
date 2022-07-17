@@ -1,0 +1,36 @@
+﻿@model LoginViewModel
+@{
+    ViewData["Title"] = "Login";
+    var url = (string)ViewData["returnUrl"];
+}
+
+<h1>Login</h1>
+
+
+<form method="post" asp-action="Login">
+    <div asp-validation-summary="All">
+        <div>
+            <label asp-for="Email"></label>
+            <input asp-for="Email" />
+            <span asp-validation-for="Email"></span>
+        </div>
+
+
+        <div>
+            <label asp-for="Password"></label>
+            <input asp-for="Password" />
+            <span asp-validation-for="Password"></span>
+
+        </div>
+
+        <div>
+            <input asp-for="RememberMe" />
+            <input asp-route-returnUrl="@ViewData["returnUrl"]" hidden/>
+        </div>
+
+        <div>
+            <input type="submit" class="btn btn-primary"/>
+            <a class="btn btn-dark" asp-controller="Student" asp-action="GetStudents">Cancel</a>
+        </div>
+    </div>
+</form>

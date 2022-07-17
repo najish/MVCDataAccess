@@ -1,0 +1,23 @@
+﻿@model StudentViewModel
+@{
+    ViewData["Title"] = "Add";
+}
+
+<h1>Add Student</h1>
+
+<form method="post" asp-action="Add">
+    <div>
+        <label asp-for="Name"></label>
+        <input asp-for="Name" />
+    </div>
+
+    <div>
+        <label asp-for="Address"></label>
+        <input asp-for="Address" />
+    </div>
+    <div>
+        <input type="submit" value="Add Student" class="btn btn-primary" />
+        <a class="btn btn-dark" asp-action="GetStudents" asp-controller="Student">Cancel</a>
+    </div>
+</form>
+
