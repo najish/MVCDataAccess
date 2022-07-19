@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "k0GNsSfnykaYu9U6q3lgmqb/darVTU6wV7tLFXLW6/PTen/xpFh0UX6pg/D/jBVSsHoMkfXb6gUdFieQ3H4BgQ==",
+  "dgSpecHash": "KhbSAAaQEK4LqF9gfKoCLmC5whueBKpcyFl0xiJw8WAEYhpw4o00QvWPF2JTQMbD41Hzs4kkfyS4JfExElzrNA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Zafer Eqbal\\OneDrive\\Desktop\\GitHubProj\\MVCDataAccess\\MVCDataAccess\\MVCDataAccess.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\Zafer Eqbal\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",
     "C:\\Users\\Zafer Eqbal\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Zafer Eqbal\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
+    "C:\\Users\\Zafer Eqbal\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\6.0.7\\microsoft.aspnetcore.authentication.google.6.0.7.nupkg.sha512",
     "C:\\Users\\Zafer Eqbal\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
     "C:\\Users\\Zafer Eqbal\\.nuget\\packages\\microsoft.aspnetcore.authorization.policy\\2.2.0\\microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512",
     "C:\\Users\\Zafer Eqbal\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.6\\microsoft.aspnetcore.cryptography.internal.6.0.6.nupkg.sha512",

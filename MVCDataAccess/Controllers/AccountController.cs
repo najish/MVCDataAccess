@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using MVCDataAccess.ViewModels;
+using System.Linq;
+using System.Security.Claims;
 
 namespace MVCDataAccess.Controllers
 {
@@ -57,10 +59,15 @@ namespace MVCDataAccess.Controllers
 
 
         [HttpGet]
-        public IActionResult Login(string returnUrl)
+        public async Task<IActionResult> Login(string returnUrl)
         {
-            ViewData["returnUrl"] = returnUrl;
-            return View();
+            var list = await signInManager.GetExternalAuthenticationSchemesAsync();
+            var model = new LoginViewModel
+            {
+                ReturnUrl = returnUrl,
+                AllScheme = list
+            };
+            return View(model);
         }
 
         [HttpPost]
@@ -69,6 +76,7 @@ namespace MVCDataAccess.Controllers
             
             if(ModelState.IsValid)
             {
+
                 var user = await userManager.FindByEmailAsync(model.Email);
 
                 if(user != null)
@@ -96,5 +104,7 @@ namespace MVCDataAccess.Controllers
             await signInManager.SignOutAsync();
             return RedirectToAction("GetStudents", "Student");
         }
+
+       
     }
 }

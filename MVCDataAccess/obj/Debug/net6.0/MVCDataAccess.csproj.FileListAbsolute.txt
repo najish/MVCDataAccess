@@ -268,3 +268,4 @@ C:\Users\Zafer Eqbal\OneDrive\Desktop\GitHubProj\MVCDataAccess\MVCDataAccess\bin
 C:\Users\Zafer Eqbal\OneDrive\Desktop\GitHubProj\MVCDataAccess\MVCDataAccess\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\Zafer Eqbal\OneDrive\Desktop\GitHubProj\MVCDataAccess\MVCDataAccess\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\Zafer Eqbal\OneDrive\Desktop\GitHubProj\MVCDataAccess\MVCDataAccess\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Zafer Eqbal\OneDrive\Desktop\GitHubProj\MVCDataAccess\MVCDataAccess\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Google.dll

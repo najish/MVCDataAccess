@@ -12,6 +12,10 @@ services.AddDbContext<AppDbContext>(options => options.UseSqlServer(configuratio
 services.AddIdentity<IdentityUser, IdentityRole>(options =>
 {
 }).AddEntityFrameworkStores<AppDbContext>();
+services.AddAuthentication().AddGoogle(options => {
+    options.ClientId = "304413053018-gu9775aeicols229cq6k31pcgj5s4g8s.apps.googleusercontent.com";
+    options.ClientSecret = "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";
+});
 services.AddScoped<IStudentRepository,StudentRepository>();
 var app = builder.Build();
 

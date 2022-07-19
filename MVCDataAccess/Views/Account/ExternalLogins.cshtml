@@ -1,0 +1,11 @@
+@model IEnumerable<AuthenticationScheme>
+@{
+    ViewData["Title"] = "External Logins";
+}
+
+
+@foreach(var scheme in Model)
+{
+    <h1>@scheme.DisplayName</h1>
+}
+
