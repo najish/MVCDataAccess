@@ -27,6 +27,13 @@
 
 
         <div>
+            <label asp-for="Aadhar"></label>
+            <input asp-for="Aadhar" />
+            <span asp-validation-for="Aadhar"></span>
+        </div>
+
+
+        <div>
             <input type="submit" value="Register" class="btn btn-primary" />
             <a asp-action="GetStudents" asp-controller="Student" class="btn btn-dark">Cancel</a>
         </div>

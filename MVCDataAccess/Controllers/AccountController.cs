@@ -18,6 +18,16 @@ namespace MVCDataAccess.Controllers
             this.signInManager = signInManager;
         }
 
+        [HttpPost]
+        public async Task<IActionResult> ExternalLogin(string provider,string returnUrl)
+        {
+            var properties = signInManager.ConfigureExternalAuthenticationProperties(provider, returnUrl);
+            
+            return new ChallengeResult(properties);
+        }
+        
+        
+        
         [HttpGet]
         public IActionResult AllUser()
         {
@@ -39,7 +49,8 @@ namespace MVCDataAccess.Controllers
                 var user = new ApplicationUser
                 {
                     Email = model.Email,
-                    UserName = model.Email
+                    UserName = model.Email,
+                    AadharNumber = model.Aadhar
                 };
                 var result = await userManager.CreateAsync(user, model.Password);
                 if(result.Succeeded)
@@ -62,7 +73,7 @@ namespace MVCDataAccess.Controllers
         [HttpGet]
         public async Task<IActionResult> Login(string returnUrl)
         {
-            var list = await signInManager.GetExternalAuthenticationSchemesAsync();
+            var list = (await signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             var model = new LoginViewModel
             {
                 ReturnUrl = returnUrl,

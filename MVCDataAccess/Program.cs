@@ -14,8 +14,8 @@ services.AddIdentity<ApplicationUser, IdentityRole>(options =>
 {
 }).AddEntityFrameworkStores<AppDbContext>();
 services.AddAuthentication().AddGoogle(options => {
-    options.ClientId = "304413053018-gu9775aeicols229cq6k31pcgj5s4g8s.apps.googleusercontent.com";
-    options.ClientSecret = "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";
+    options.ClientId = "304413053018-rcfnmho1e739smiq30de3aefum5jp4ni.apps.googleusercontent.com";
+    options.ClientSecret = "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";
 });
 services.AddScoped<IStudentRepository,StudentRepository>();
 var app = builder.Build();

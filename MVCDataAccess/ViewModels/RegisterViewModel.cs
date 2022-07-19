@@ -14,5 +14,7 @@ namespace MVCDataAccess.ViewModels
         [DataType(DataType.Password)]
         [Display(Name ="Confirm Password")]
         public string ConfirmPassword { get; set; }
+        [Required]
+        public string Aadhar { get; set; }
     }
 }
