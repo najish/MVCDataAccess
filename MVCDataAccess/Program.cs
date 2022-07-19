@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using MVCDataAccess.Data;
+using MVCDataAccess.Models;
 using MVCDataAccess.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,7 +10,7 @@ var configuration = builder.Configuration;
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 services.AddDbContext<AppDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
-services.AddIdentity<IdentityUser, IdentityRole>(options =>
+services.AddIdentity<ApplicationUser, IdentityRole>(options =>
 {
 }).AddEntityFrameworkStores<AppDbContext>();
 services.AddAuthentication().AddGoogle(options => {

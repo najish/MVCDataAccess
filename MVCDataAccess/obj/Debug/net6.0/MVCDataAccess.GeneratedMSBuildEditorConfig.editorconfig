@@ -8,85 +8,85 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MVCDataAccess
 build_property.RootNamespace = MVCDataAccess
-build_property.ProjectDir = c:\Users\Zafer Eqbal\OneDrive\Desktop\GitHubProj\MVCDataAccess\MVCDataAccess\
+build_property.ProjectDir = C:\Users\Zafer Eqbal\OneDrive\Desktop\GitHubProj\MVCDataAccess\MVCDataAccess\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\Zafer Eqbal\OneDrive\Desktop\GitHubProj\MVCDataAccess\MVCDataAccess
+build_property.MSBuildProjectDirectory = C:\Users\Zafer Eqbal\OneDrive\Desktop\GitHubProj\MVCDataAccess\MVCDataAccess
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/Account/ExternalLogins.cshtml]
+[C:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/Account/ExternalLogins.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFeHRlcm5hbExvZ2lucy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/Account/Login.cshtml]
+[C:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/Account/Register.cshtml]
+[C:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/Administration/CreateRole.cshtml]
+[C:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/Administration/CreateRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cQ3JlYXRlUm9sZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/Administration/EditRole.cshtml]
+[C:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/Administration/EditRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cRWRpdFJvbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/Administration/ListRoles.cshtml]
+[C:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/Administration/ListRoles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cTGlzdFJvbGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/Home/Index.cshtml]
+[C:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/Home/Privacy.cshtml]
+[C:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/Person/Index.cshtml]
+[C:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/Person/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/Shared/Error.cshtml]
+[C:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/Student/Add.cshtml]
+[C:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/Student/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/Student/Delete.cshtml]
+[C:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/Student/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/Student/GetStudent.cshtml]
+[C:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/Student/GetStudent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxHZXRTdHVkZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/Student/GetStudents.cshtml]
+[C:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/Student/GetStudents.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxHZXRTdHVkZW50cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/Student/Update.cshtml]
+[C:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/Student/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/_ViewImports.cshtml]
+[C:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/_ViewStart.cshtml]
+[C:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/Shared/_Layout.cshtml]
+[C:/Users/Zafer Eqbal/OneDrive/Desktop/GitHubProj/MVCDataAccess/MVCDataAccess/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-kddfexiww3
