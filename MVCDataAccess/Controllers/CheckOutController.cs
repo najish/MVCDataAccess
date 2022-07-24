@@ -3,19 +3,15 @@ using MVCDataAccess.Data;
 
 namespace MVCDataAccess.Controllers;
 
-public class StudentController : Controller
+public class CheckOutController : Controller
 {
     private readonly AppDbContext context;
-    public StudentController(AppDbContext context)
-    {   
-        this.context = context;
+    public CheckOutController()
+    {
+        
     }
 
-    public IActionResult GetStudent()
-    {
-        return View();
-    }
-    public IActionResult GetStudents()
+    public IActionResult GetCheckOut()
     {
         return View();
     }
@@ -28,7 +24,6 @@ public class StudentController : Controller
     {
         return View();
     }
-
 
     public IActionResult Delete()
     {

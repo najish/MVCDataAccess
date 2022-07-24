@@ -3,19 +3,19 @@ using MVCDataAccess.Data;
 
 namespace MVCDataAccess.Controllers;
 
-public class StudentController : Controller
+public class BookPriceController : Controller
 {
     private readonly AppDbContext context;
-    public StudentController(AppDbContext context)
-    {   
+    public BookPriceController(AppDbContext context)
+    {
         this.context = context;
-    }
-
-    public IActionResult GetStudent()
+    }   
+    public IActionResult GetBookPrice()
     {
         return View();
     }
-    public IActionResult GetStudents()
+
+    public IActionResult GetBooksPrice()
     {
         return View();
     }

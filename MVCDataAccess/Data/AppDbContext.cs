@@ -12,6 +12,10 @@ namespace MVCDataAccess.Data
         }
 
         public DbSet<Student> Students { get; set; }
+        public DbSet<Book> Books { get; set; }
+        public DbSet<BookPrice> BookPrices { get; set; }
+        public DbSet<Enrollment> Enrollments { get; set; }
+        public DbSet<CheckOut> CheckOuts { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
